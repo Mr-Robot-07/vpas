@@ -1,0 +1,22 @@
+.share {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.textarea {
+  height: 90%;
+  width: 100%;
+}
+
+.editor {
+  box-shadow: 0 1px 4px rgb(128, 128, 128);
+  height: 400px;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.editor:hover {
+  box-shadow: 0 1px 7px rgb(128, 128, 128);
+}
